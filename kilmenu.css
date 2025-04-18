@@ -1,0 +1,148 @@
+.menukil{
+    display: flex;
+
+   
+}
+.logo{
+      position: absolute;
+    right: 68%;
+    width: 200px;
+    padding-top: 1%;
+
+}
+.kilmenu img{
+    width: 1000px;
+
+}
+.kilmenu h6{
+    position: absolute;
+    color: white;
+    left: 460px;
+    font-size: 40px;
+    top: 370px;
+    font-weight: lighter;
+    font-size: 40px; 
+}
+.kilmenu h2{
+    position: absolute;
+    color: orangered;
+    left: 390px;
+    font-size: 40px;
+    top: 500px;
+    font-weight: lighter;
+    font-size: 70px; 
+}
+.menukil-two{
+    background-color: black;
+    color: white;
+
+}
+.menukil-two a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    
+}
+.navigation-bar{
+    display: flex;
+    gap: 200px;
+    padding: 20px;
+   margin-left: 90px;
+}
+.Breakfast p{
+    margin-left: 60px;
+}
+.Breakfast h2{
+    color: orangered;
+    margin-left: 60px;
+    font-weight: lighter;
+}
+.breakfastcategories {
+    text-decoration: none;
+    display: flex;
+    gap: 400px;
+    margin-left: 10px;
+    padding:20px;
+
+
+   
+}
+.breakfastcategories ul{
+list-style-type: none;
+}
+
+.foodcategories h2{
+    color: orangered;
+    font-size: xx-large;
+    
+
+}
+
+.food-items{
+    display: flex;
+    text-decoration: none;
+    gap: 330px;
+    padding:30px;
+    list-style-type: none;
+    margin-right: 0.5%;
+}
+.food-items ul{
+    list-style-type: none;
+}
+.food h1{
+    margin-left:8% ;
+}
+.mydrinks{
+    display: flex;
+    
+
+}
+.mydrinks ul{
+    list-style-type: none;
+}
+.Drinks h1{
+    margin-left: 9%;
+}
+.mydrinks{
+    display: flex;
+    text-decoration: none;
+    gap: 330px;
+    padding:30px;
+    list-style-type: none;
+    margin-right: 1%;
+
+}
+.navigation a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    border: 10px;
+    
+    }
+    .navigation{
+        position:absolute;
+    display: flex;
+    bottom:60px;
+    gap: 34px;
+    text-align: center;
+    left: 200px;
+    padding: 20px;
+    background-color: black;
+    width: 700px;
+    border-radius: 30px;
+    font-size: small;
+    justify-content: space-between;
+    
+    
+    
+    }
+    body{
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+
+

@@ -1,0 +1,82 @@
+.Contacts{
+    background-image: url(images/contaci.jpg);
+    width:99.99vw;
+    height:99.99vh;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    background-blend-mode: darken;
+
+
+}
+.image img{
+    width: 200px;   
+margin-left: 80px;
+margin-top: 100px;
+}
+
+
+.text-contact{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.Kilimani{
+color: white;
+border-color: white;
+border-style: solid;
+border-width: thin;
+}
+.Kilimani a{
+    text-decoration: none;
+    color: white;
+}
+.kitisuru{
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+}
+.kitisuru a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.kitisuru h2{
+    font-weight: lighter;
+}
+.Kilimani h2{
+    font-weight: lighter;
+}
+.navigation a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    border: 10px;
+    
+    }
+    .navigation{
+        position:absolute;
+    display: flex;
+    bottom:60px;
+    gap: 34px;
+    text-align: center;
+    left: 550px;
+    padding: 20px;
+    background-color: black;
+    width: 700px;
+    border-radius: 30px;
+    font-size: small;
+    justify-content: space-between;
+    
+    
+    }
+.logo{
+    width: 12%;
+}

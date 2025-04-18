@@ -1,0 +1,99 @@
+
+.banner-image{
+    position: relative;
+}
+
+.image img{
+
+width: 200px;   
+margin-left: 80px;
+margin-top: 100px;
+
+}
+
+.image h1{
+
+color: grey;
+margin-bottom: 80px;
+margin-left: 80px;
+font-size: 100px;
+
+
+}
+body{
+    overflow-x: hidden;
+}
+.image{
+
+    width:99.99vw;
+    height:99.99vh;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:anime 20s infinite forwards;
+    opacity: 0;
+
+    
+}
+
+
+.image:nth-child(1){
+    background-image: url(images/welcome.jpg);
+   animation-delay:0s;
+}
+.image:nth-child(2){
+    background-image: url(images/discover.jpg);
+    animation-delay: 4s;
+}
+.image:nth-child(3){
+background-image: url(images/experience.jpg);
+animation-delay: 8s;
+
+}
+.image:nth-child(4){
+background-image: url(images/taste.jpg);
+animation-delay: 12s;
+}
+.image:nth-child(5){
+background-image: url(images/savour.jpeg);
+animation-delay: 16s;
+}
+@keyframes anime{
+    0%{opacity:0;}
+    10%{opacity:1;}
+    30%{opacity:1;}
+    40%{opacity:100;}
+    100%{opacity:100;}
+}
+
+
+.navigation a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    border: 10px;
+    
+    }
+    .navigation{
+        position:absolute;
+    display: flex;
+    bottom:60px;
+    gap: 34px;
+    text-align: center;
+    left: 550px;
+    padding: 20px;
+    background-color: black;
+    width: 700px;
+    border-radius: 30px;
+    font-size: small;
+    justify-content: space-between;
+    
+    
+    }
+
+
+

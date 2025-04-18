@@ -1,0 +1,85 @@
+
+.menu{
+    display: flex;
+    text-decoration: none;
+    
+
+}
+.kitusurumenu img{
+    width: 99.99%;
+    height: 100vh;
+}
+.kilimanimenu img{
+    width: 99.99%;
+    height: 100vh;
+    background-blend-mode: darken;
+    
+}
+.logo{
+    
+    
+    position: absolute;
+    right: 42%;
+    width: 200px;
+    padding-top: 1%;
+}
+.kitusurumenu p{
+    position: absolute;
+    color: orangered;
+    left: 400px;
+    font-size: 40px;
+    top: 400px;
+    font-weight: lighter;
+
+}
+.kitusurumenu h1{
+    font-size: 60px;
+    left: 340px;
+    top: 450px;
+    position: absolute;
+    color: white
+    
+    
+
+}
+.kitusurumenu a{
+    text-decoration: none;
+    color: white;
+
+}
+.kitusurumenu h6{
+    font-size: 20px;
+    left: 370px;
+    top: 530px;
+    position: absolute;
+    color: white
+}
+.kilimanimenu p{
+    position: absolute;
+    color: orangered;
+    left: 1250px;
+    font-size: 40px;
+    top: 400px;
+    font-weight: lighter;
+}
+.kilimanimenu h1{
+    font-size: 60px;
+    left: 1200px;
+    top: 450px;
+    position: absolute;
+    color: white
+}
+.kilimanimenu a{
+    text-decoration: none;
+    color: white;
+}
+.kilimanimenu h6{
+    font-size: 20px;
+    left: 1250px;
+    top: 530px;
+    position: absolute;
+    color: white
+}
+
+
+

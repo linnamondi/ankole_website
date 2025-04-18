@@ -1,0 +1,117 @@
+.Accra p {
+    color: white;
+    position: relative;
+    bottom: 1500px;
+    left: 200px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.Accra h1 {
+    color: orangered;
+    position: relative;
+    bottom: 1500px;
+    left: 200px;
+    font-size: 50px;
+}
+
+.Accra {
+    width: 35%;
+    height: 10vh;
+}
+
+.Nairobi {
+    width: 35%;
+    height: 10vh;
+}
+
+.Nairobi p {
+    color: white;
+    position: relative;
+    bottom: 1500px;
+    left: 200px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.Nairobi h1 {
+   color: orangered;
+    position: relative;
+    bottom: 1500px;
+    left: 200px;
+    font-size: 50px;
+
+}
+
+.Zanzibar p {
+    color: white;
+    position: relative;
+    bottom: 1500px;
+    left: 200px;
+    font-weight: bold;
+    font-size: large;
+
+}
+    
+.Zanzibar h1 {
+    color: orangered;
+    position: relative;
+    bottom: 1500px;
+    left: 200px;
+    font-size: 50px;
+
+  
+}
+
+
+.events-cities {
+    display: flex;
+    width: 100%;
+    background-blend-mode: darken;
+    
+}
+
+.logo {
+
+    position: absolute;
+    left: 45%;
+    padding-top: -18%;
+    width: 200px;
+}
+
+body {
+    overflow-x: hidden;
+    height: 10vh;
+    overflow-y: hidden;
+}
+.navigation a{
+    
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    
+    }
+    .navigation{
+        position:absolute;
+        display: flex;
+        bottom:60px;
+        gap: 34px;
+        text-align: center;
+        left: 400px;
+        padding: 20px;
+        background-color: black;
+        width: 700px;
+        border-radius: 30px;
+        font-size: small;
+        justify-content: space-between;
+    
+        
+    
+    
+    
+    
+    }
