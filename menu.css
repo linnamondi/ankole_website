@@ -81,5 +81,30 @@
     color: white
 }
 
+.navigation a{
 
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    border: 10px;
+    
+    }
+    .navigation{
+        position:absolute;
+    display: flex;
+    bottom:60px;
+    gap: 34px;
+    text-align: center;
+    left: 550px;
+    padding: 20px;
+    background-color: black;
+    width: 700px;
+    border-radius: 30px;
+    font-size: small;
+    justify-content: space-between;
+    
+    
+    }
 

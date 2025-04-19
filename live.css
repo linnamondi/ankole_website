@@ -1,0 +1,159 @@
+.Live{
+    background-image: url(/images/handsup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 1oovh;
+    background-blend-mode: darken;
+
+}
+.images img{
+    width: 15%;
+    margin-left: 800px;
+    margin-bottom: 2%;
+    
+}
+
+.images p {
+    color: orangered;
+    font-size: 25px;
+    color: orangered;
+    
+
+}
+.images h1{
+    color: white;
+}
+.images {
+    display: flex;
+    left: 700px;
+    gap: 20px;
+}
+.logo{
+
+        position: absolute;
+        left: 15%;
+        padding-top: -15%;
+        width: 200px;
+ }
+ .live-events{
+    position: absolute;
+    left: 15%;
+    padding-top: 15%;
+    
+}
+.live-events h1{
+    color: orangered;
+    font-size: 50px;
+
+
+}
+.live-events h2{
+    color: white;
+    font-size: 40px;
+}
+.images2 img{
+    width: 15%;
+    margin-left: 800px;
+    margin-bottom: 2%;
+}
+
+.images2{
+    display: flex;
+    gap: 20px;
+
+}
+.images2 p{
+    color: orangered;
+    font-size: 25px;
+    padding-top: 12%;
+
+}
+.images2 h1{
+    color: white;
+}
+
+ .images3{
+    display: flex;
+    gap: 20px;
+ }
+ .images3 img{
+    width: 15%;
+    margin-left: 800px;
+    margin-bottom: 2%;
+}
+.images3 p{
+    color: orangered;
+    font-size: 25px;
+    padding-top: 12%;
+
+}
+.images3 h1{
+    color: white;
+}
+.images4{
+    display: flex;
+    gap: 20px; 
+}
+.images4 img{
+    width: 15%;
+    margin-left: 800px;
+    margin-bottom: 2%;
+    
+}
+.images4 p{
+    color: orangered;
+    font-size: 25px;
+    padding-top: 12%;
+
+}
+.images4 h1{
+    color: white;
+}
+.navigation a{
+    
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    
+    }
+    .navigation{
+        position:absolute;
+        display: flex;
+        bottom:60px;
+        gap: 34px;
+        text-align: center;
+        left: 60px;
+        padding: 20px;
+        background-color: black;
+        width: 700px;
+        border-radius: 30px;
+        font-size: small;
+        justify-content: space-between;
+    
+        
+    
+    
+    
+    
+    }
+    .images-overal img{
+        transition: 0.5s ease-in;
+    
+    }
+    .images-overal img:hover{
+        transform: scale(1.1);
+
+
+    }
+    
+
+
+
+
+
+
