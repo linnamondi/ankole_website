@@ -99,9 +99,63 @@ body {font-family: Verdana, sans-serif; margin:0}
   
   
   }
+  @media only screen and (max-width:700px){
+    .mySlides {
+      padding: 1px;
+      text-align: center;
+      margin-left: 2px;
+      font-size: 50%;
+      
+    }
+
+    .fa-quote-left{
+      color: red;
+      margin-right: 90%;
+      font-size: 150%;
+
+  }
+  .fa-quote-right{
+    color: red;
+    margin-left: 85%;
+    font-size: 200%;
+    
+  }
+  .Reviews-page{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  
+  }
+  .next {
+    position: absolute;
+    right: 20px;
+    border-radius: 10px 0 0 3px;
+    top: 50%;
+  }
+  .prev{
+    left: 7px;
+    top: 32%;
+  }
+  
+
+  
+  .navigation{
+    position:absolute;
+display: flex;
+bottom:100px;
+text-align: center;
+left: 1px;
+padding: 1px;
+background-color: black;
+width: 200px;
+border-radius: 30px;
+font-size: small;
+justify-content: space-between;
+
+}
 
 
 
 
 
-
+  }

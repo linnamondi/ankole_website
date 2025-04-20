@@ -81,16 +81,53 @@ border-width: thin;
     width: 12%;
 }
 
-@media only screen and (max-width:430px) {
-   
-      
-    }  
-    .Nairobi{
-      
+@media only screen and (max-width:700px) {
+    .Contacts{
+        width: 100vw;
+        height: 100vh;
+
+        
     }
-    .Zanzibar{
+      .text-contact{
+       display: block;
+       margin-left: 13%;
+
+      }
+      .kitisuru{
+        font-size: small;
+        border: solid;
+        width: 70%;
+        margin-left: 27px;
+        margin-bottom: 10px;
+      }
+      .Kilimani{
+        font-size: small;
+        border: solid;
+        width: 70%;
+        margin-left: 27px;
+        margin-bottom: 10px;
+      }
+      .logo{
+        margin-right: 30px;
+      }
+      .navigation{
+        left: 40px;
+        bottom:60px;
+        gap: 0.3px;
+        padding: 10px;
+
+        width: 300px;
     
-    }
+        font-size: 30%;
+        justify-content: space-between;
+    
+      }
+      .fa-bars{
+        display: inline-block;
+        display: flex;
+      }
+
+    }  
   
   @media only screen and (min-width:431px) and (max-width:820px) {
       

@@ -12,14 +12,15 @@
     width: 15%;
     margin-left: 800px;
     margin-bottom: 2%;
-    
+    display: flex;
 }
+    
+
 
 .images p {
     color: orangered;
     font-size: 25px;
-    color: orangered;
-    
+    padding-top: 12%;
 
 }
 .images h1{

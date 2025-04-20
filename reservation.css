@@ -144,4 +144,133 @@ font-size: 150%;
 
 
 }
+@media only screen and (max-width:700px){
+    .reservation{
+        display: block;
+    
+    }
+    
+    #first-name{
+        width: 370px;
+        height: 30px;
+        
+    }
+    #submit-button{
+        width: 380px;
+        height: 50px; 
+        margin-right: 10px;
+        
+    }
+    #Location{
+        width: 370px;
+        height: 30px; 
+    
+        
+    }
+    #Email{
+        width: 370px;
+        height: 30px;  
+    }
+    #TelCell{
+        width: 370px;
+        height: 30px;  
+
+    
+    }
+    #NumberofGuests{
+        width: 370px;
+        height: 30px; 
+    
+    
+    }
+    #Date{
+        width: 370px;
+        height: 30px;  
+    }
+    #Time{
+        width: 370px;
+        height: 30px; 
+        color: white;
+        
+    }
+    .reservation img{
+        width: 100%;
+        height: 900px;
+    
+    
+    
+    }
+    .logo{
+            left: 30%;
+            padding-top: 5%;
+            width: 150px;
+        
+    
+    }
+    .reservation{
+        display: block;
+    
+    }
+    .forms-reservation{
+            border: 20%;
+            width: 398px;
+            border: 34%;
+            width: 1100px;
+            height: 970px;
+            box-shadow: 28%;
+            padding-top: -70%;
+            margin-left: 1%;
+            background-color: black;
+            padding: 8px;
+            margin: 8px;
+            color: white;
+           
+        
+            
+         
+    
+        
+    
+    }
+.navigation{
+    position:absolute;
+    bottom:-90%;
+    text-align: center;
+    left: 10px;
+    padding: 20px;
+    background-color: black;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 30%;
+
+    
+
+
+
+
+}
+.image-resev h1{
+    color: orangered;
+    position: relative;
+    bottom: 600px;
+    left: 100px;
+    font-size: 30px;
+}
+.image-resev h2{
+    color: white;
+    position: relative;
+    bottom: 600px;
+    left: 150px;
+    
+    
+    }
+
+
+
+    
+    }
+
+
+
+
     
