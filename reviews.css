@@ -118,6 +118,7 @@ body {font-family: Verdana, sans-serif; margin:0}
     color: red;
     margin-left: 85%;
     font-size: 200%;
+  
     
   }
   .Reviews-page{
@@ -128,29 +129,24 @@ body {font-family: Verdana, sans-serif; margin:0}
   }
   .next {
     position: absolute;
-    right: 20px;
+    right: 1px;
     border-radius: 10px 0 0 3px;
-    top: 50%;
+    top: 35%;
   }
   .prev{
     left: 7px;
-    top: 32%;
+    top: 34%;
   }
   
 
   
   .navigation{
-    position:absolute;
-display: flex;
-bottom:100px;
-text-align: center;
-left: 1px;
+left: 35px;
 padding: 1px;
-background-color: black;
-width: 200px;
-border-radius: 30px;
-font-size: small;
-justify-content: space-between;
+width: 350px;
+font-size: 40%;
+gap: 0.5px;
+
 
 }
 

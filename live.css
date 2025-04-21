@@ -12,25 +12,8 @@
     width: 15%;
     margin-left: 800px;
     margin-bottom: 2%;
-    display: flex;
 }
-    
 
-
-.images p {
-    color: orangered;
-    font-size: 25px;
-    padding-top: 12%;
-
-}
-.images h1{
-    color: white;
-}
-.images {
-    display: flex;
-    left: 700px;
-    gap: 20px;
-}
 .logo{
 
         position: absolute;
@@ -142,15 +125,117 @@
     
     
     }
-    .images-overal img{
-        transition: 0.5s ease-in;
+
+    @media only screen and (max-width:700px){
+        .Live{
+            width: 100vw;
+            height: 100vh;
+        
+        }
+        .logo{
+            left: 35%;
+            padding-top: -10%;
+            width: 100px;
+     }
+     .navigation{
+        bottom:0.1px;
+        gap: 1.1px;
+        left: 50px;
+        padding: 20px;
+        width: 260px;
+        font-size: 30%;
+
+    }
+    .images2{
+        display: block;
+        gap: 1px;
     
     }
-    .images-overal img:hover{
-        transform: scale(1.1);
+    .images2 img{
+        width: 40%;
+        height: 15vh;
+        margin-left: 10px;
+        margin-bottom: -80%;
+    }
 
+    .images2 p{
+        color: orangered;
+        font-size: 20px;
+        padding-top: 75%;
+        padding-right: 2%;
+    
+    }
+    .images2 h1{
+        color: white;
+        font-size: large;
 
     }
+    .images3{
+        display: block;
+        gap: 1px;
+     }
+     .images3 img{
+        width: 40%;
+        height: 15vh;
+        margin-left: 10px;
+        margin-bottom: -30%;
+    }
+    .images3 h1{
+        color: white;
+        font-size: 20px;
+    
+    }
+    .images3 p{
+        font-size: 20px;
+        padding-top: 27%;
+    
+    }
+
+.live-events h1{
+    font-size: 30px;
+    margin-left: 110px;
+
+
+}
+.live-events h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 80px;
+    padding-top: 10%;
+}
+.images4{
+    display: block;
+    gap: 1px; 
+}
+.images4 img{
+    width: 40%;
+    height: 15vh;
+    margin-left: 10px;
+    margin-bottom: 2%;
+    
+}
+.images4 p{
+    color: orangered;
+    font-size: 20px;
+    margin-top: -15%;
+    
+
+}
+.images4 h1{
+    color: white;
+    font-size: 20px;
+}
+ 
+
+
+
+    
+
+
+    
+
+    
+}
     
 
 

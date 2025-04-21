@@ -65,6 +65,7 @@
 }
 
 
+
 .events-cities {
     display: flex;
     width: 100%;
@@ -117,13 +118,104 @@ body {
     }
 
     @media only screen and (max-width:700px) {
-
-
-    }
-
-    @media only screen and (min-width:431px) and (max-width:820px) {
+        .Accra p {
+    
+            bottom: 150px;
+            left: 150px;
+            font-weight: bold;
+            font-size: small;
+            padding-top: 24%;
+        }
         
-    }
-    @media only screen and (min-width:821px) and (max-width:1280px) {
         
+        .Accra h1 {
+            bottom: 80px;
+            left: 130px;
+            font-size: 40px;
+            margin-top: -300%;
+        }
+        
+        .Accra img{
+            width: 100vw;
+            height: 60vh;
+        }
+        
+        .Nairobi {
+            width: 33%;
+            height: 10vh;
+        }
+        .Nairobi img{
+            width: 100vw;
+            height: 50vh;
+        
+            padding-top: 280%;
+            
+
+        }
+        
+        .Nairobi p {
+            bottom: 0.1px;
+            left: 100px;
+            font-weight: bold;
+            font-size: 95%;
+            
+        }
+        
+        .Nairobi h1 {
+
+            bottom: 0.1px;
+            left: 90px;
+            font-size: 50px;
+        
+        }
+        
+        .Zanzibar p {
+            bottom: 850px;
+            left: 100px;
+            font-size: 95%;
+        
+        }
+            
+        .Zanzibar h1 {
+            bottom: 850px;
+            left: 100px;
+            font-size: 50px;
+        
+          
+        }
+        .Zanzibar img{
+            width: 100vw;
+            height: 50vh;
+            padding-top: 180%;
+        }
+        
+        .events-cities {
+            display: block;
+            
+        }
+        
+        .logo {
+        
+            left: 35%;
+            padding-top: -18%;
+            width: 100px;
+        }
+        
+            .navigation{
+
+                bottom:-465px;
+                gap: 1px;
+                left: 20px;
+                padding: 20px;
+                width: 300px;
+                font-size: 45%;
+            
+                
+            
+            
+            
+            
+            }
+   
+
     }
